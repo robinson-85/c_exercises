@@ -3,16 +3,18 @@ desconto. Exiba o valor do desconto e o preço a pagar. */
 
 #include <stdio.h>
 int main(){
-    float salario, porcentagem_aumento, valor_aumento, novo_salario;
-    printf("Declare o seu salario: \n");
-    scanf("%f", &salario);
-    printf("Declare a porcentagem de aumento do salario: \n");
-    scanf("%f", &porcentagem_aumento);
-    
-    valor_aumento = salario * porcentagem_aumento / 100;
-    novo_salario = salario + valor_aumento;
+    float preco_mercadoria, percentual_desconto, valor_desconto, preco_final;
+    printf("Declare o preco da mercadoria: \n");
+    scanf("%f", &preco_mercadoria);
+    printf("Declare o percentual de desconto: \n");
+    scanf("%f", &percentual_desconto);
 
-    printf("O valor do aumento do seu salario sera: %.2f \n", valor_aumento);
-    printf("O seu novo salario sera: %.2f \n", novo_salario);
+    valor_desconto = preco_mercadoria * percentual_desconto / 100;
+    preco_final = preco_mercadoria - valor_desconto;
 
+    printf("O valor do desconto da mercadoria sera: %.f \n", valor_desconto);
+    printf("O preco final a pagar pela mercadoria sera: %.2f \n", preco_final);
+
+    getchar();
+    return 0;
 }
