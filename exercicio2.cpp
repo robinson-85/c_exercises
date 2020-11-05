@@ -12,5 +12,8 @@ int main(){
       metro = metro * 1000;
     
     printf("O valor declarado em metros equivale a: %.2f milimetros \n", metro);
+
+    getchar();
+    return 0;
     
 }
