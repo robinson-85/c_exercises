@@ -3,4 +3,11 @@ alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi a
 Calcule o preço a pagar, sabendo que o carro custa R$ 60,00 por dia e R$ 0,15 por km
 rodado. */
 
+#include <stdio.h>
+int main(){
+    
 
+
+    getchar();
+    return 0;
+}

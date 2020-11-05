@@ -2,6 +2,7 @@
 números na tela. */
 
 #include <stdio.h>
+
 int main(){
     int n1, n2, soma;
     printf("Declare dois numeros inteiros: \n");
@@ -14,6 +15,5 @@ int main(){
 
     getchar();
     return 0;
-
 }
 
