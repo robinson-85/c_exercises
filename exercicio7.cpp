@@ -2,6 +2,7 @@
 A fórmula para essa conversão é: F = 9 * 5 + 32 / 5. */
 
 #include <stdio.h>
+
 int main(){
     float graus_celsius, graus_fahrenheit;
     printf("_______Transformando temperatura de °C em °F_________ \n");

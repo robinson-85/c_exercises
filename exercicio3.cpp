@@ -2,6 +2,7 @@
 do usuário. Calcule o total em segundos. */
 
 #include <stdio.h>
+
 int main(){
     float dias, horas, minutos, segundos, totalSegundos;
     printf("Digite uma quantidade de dias: \n");

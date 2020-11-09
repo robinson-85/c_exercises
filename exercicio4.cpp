@@ -3,6 +3,7 @@ valor do salário e a porcentagem do aumento. Exiba o valor do aumento e do
 novo salário. */
 
 #include <stdio.h>
+
 int main(){
     float salario, porcentagem_aumento, valor_aumento, novo_salario;
     printf("Declare o seu salario: \n");

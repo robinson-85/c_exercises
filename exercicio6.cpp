@@ -2,6 +2,7 @@
 distância a percorrer e a velocidade média esperada para a viagem. */
 
 #include <stdio.h>
+
 int main(){
     float tempo_viagem, distancia, velocidade_media;
     printf("Qual a distancia a percorrer em km? \n");

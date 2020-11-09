@@ -2,6 +2,7 @@
 desconto. Exiba o valor do desconto e o preço a pagar. */
 
 #include <stdio.h>
+
 int main(){
     float preco_mercadoria, percentual_desconto, valor_desconto, preco_final;
     printf("Declare o preco da mercadoria: \n");

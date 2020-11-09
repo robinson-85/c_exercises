@@ -6,17 +6,17 @@
  #include <stdio.h>
 
  int main(){
-    int reducao_tempo, quantidade_diaria, quantos_anos;
+    int reducao_tempo, quantidade_diaria, quantos_anos, dias_perdidos, total_cigarros;
     printf("Quantos cigarros você fuma por dia? \n");
     scanf("%d", &quantidade_diaria);
-    printf("Quantos anos você fumou? \n");
+    printf("Quantos anos voce fumou? \n");
     scanf("%d", &quantos_anos);
 
-    
+    total_cigarros = (quantos_anos * 365)* quantidade_diaria;
+    dias_perdidos = (total_cigarros * 10)/24;
 
-    
-    
-    
+    printf("Os seus dias perdidos por conta do cigarro serao: %d\n", dias_perdidos);
+
     getchar();
     return 0;
  }
